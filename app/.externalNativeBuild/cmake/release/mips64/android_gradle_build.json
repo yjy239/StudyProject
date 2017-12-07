@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "E:/workspace/CommonProject/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"E:\\ASD\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\CommonProject\\app\\.externalNativeBuild\\cmake\\release\\mips64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"compress-lib-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "compress-lib",
+			"buildCommand" : "E:\\ASD\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\CommonProject\\app\\.externalNativeBuild\\cmake\\release\\mips64 --target compress-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=E:/ASD/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=E:/ASD/ndk-bundle/sysroot  -Dcompress_lib_EXPORTS -isystem E:\\ASD\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\ASD\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem E:\\ASD\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/ASD/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/workspace/CommonProject/app/src/main/jni/compress-lib.cpp",
+					"workingDirectory" : "E:/workspace/CommonProject/app/.externalNativeBuild/cmake/release/mips64"
+				}
+			],
+			"output" : "E:/workspace/CommonProject/app/build/intermediates/cmake/release/obj/mips64/libcompress-lib.so",
+			"toolchain" : "933327913"
+		}
+	},
+	"toolchains" : 
+	{
+		"933327913" : 
+		{
+			"cCompilerExecutable" : "E:/ASD/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/ASD/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

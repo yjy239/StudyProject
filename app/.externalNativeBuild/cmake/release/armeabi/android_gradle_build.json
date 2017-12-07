@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "E:/workspace/CommonProject/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"E:\\ASD\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\CommonProject\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"compress-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "compress-lib",
+			"buildCommand" : "E:\\ASD\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\workspace\\CommonProject\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target compress-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=E:/ASD/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/ASD/ndk-bundle/sysroot  -Dcompress_lib_EXPORTS -isystem E:\\ASD\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\ASD\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem E:\\ASD\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/ASD/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/workspace/CommonProject/app/src/main/jni/compress-lib.cpp",
+					"workingDirectory" : "E:/workspace/CommonProject/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "E:/workspace/CommonProject/app/build/intermediates/cmake/release/obj/armeabi/libcompress-lib.so",
+			"toolchain" : "933327913"
+		}
+	},
+	"toolchains" : 
+	{
+		"933327913" : 
+		{
+			"cCompilerExecutable" : "E:/ASD/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/ASD/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

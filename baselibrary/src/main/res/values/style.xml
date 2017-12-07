@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/tools">
+    <style
+        name="dialog" parent = "@android:style/Theme.Dialog">
+
+        <item name="android:windowFrame"> @null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否在activity之上-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@color/translate</item>
+        <!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--模糊-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog_from_bottom">
+        <item name="android:windowEnterAnimation">@anim/dialog_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/dialog_from_bottom_out</item>
+    </style>
+
+    <style name="default_animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_default_animtion_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_default_animation_out</item>
+    </style>
+
+</resources>

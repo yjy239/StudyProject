@@ -1,0 +1,3 @@
+E:/workspace/CommonProject/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/compress-lib.dir
+E:/workspace/CommonProject/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+E:/workspace/CommonProject/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
